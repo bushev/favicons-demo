@@ -1,0 +1,30 @@
+{
+  "name": "favicons-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./node_modules/.bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bushev/favicons-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bushev/favicons-demo/issues"
+  },
+  "homepage": "https://github.com/bushev/favicons-demo#readme",
+  "dependencies": {
+    "@types/node": "^14.0.26",
+    "copy-webpack-plugin": "^6.0.3",
+    "favicons": "git+https://github.com/bushev/favicons.git",
+    "node-loader": "^1.0.0",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
